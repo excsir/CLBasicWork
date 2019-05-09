@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BaseWork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BaseWork.'
+  s.summary          = '测试 BaseWork.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/excsir@163.com/BaseWork'
+  s.homepage         = 'https://github.com/excsir/CLBasicWork.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'excsir@163.com' => 'excsir@163.com' }
-  s.source           = { :git => 'https://github.com/excsir@163.com/BaseWork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/excsir/CLBasicWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

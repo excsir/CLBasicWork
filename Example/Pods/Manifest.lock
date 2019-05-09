@@ -1,0 +1,16 @@
+PODS:
+  - BaseWork (0.1.0)
+
+DEPENDENCIES:
+  - BaseWork (from `../`)
+
+EXTERNAL SOURCES:
+  BaseWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseWork: 1b2edd587d1e7b97638e5202658c70cf48ff5b91
+
+PODFILE CHECKSUM: 8c632c9752e34198188e49c3783981a9fc0864c4
+
+COCOAPODS: 1.5.3
