@@ -15,11 +15,19 @@
 		5B5D4D79291F908CE2E7A1ACA6DC7274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6C7785B88D86B5AC12B60DEDC7C88D9E /* Pods-BaseWork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE3E5476CDB96EA481763AACF4FDFD /* Pods-BaseWork_Tests-dummy.m */; };
 		705C930791869317A6EFA3BD04F5DF2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7CE131EF896C18B69B3449583FD76F93 /* ViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E31D7D67410776536F88D210A2D8100 /* ViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		882CF0538F5D193AC5F924095D69F72D /* CLViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 282845EB6D7B954DB038F7868B3C5464 /* CLViewModel.m */; };
 		BB2715086620342B7E0CB64C1FE2B606 /* Pods-BaseWork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C43BAE221C189C2151EED93EDFFA3E /* Pods-BaseWork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C698645BB4503334E7B98870164CC3A4 /* Pods-BaseWork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0CD3F2C49176DA7AF2D0D8A193C19 /* Pods-BaseWork_Example-dummy.m */; };
-		F941C05E820BC5A3C3922DD559EB07CA /* ViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D248063A3F2BDE3533E0BBBD68280A4 /* ViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E504034B229F5BDF00E78D38 /* ControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040347229F5BDF00E78D38 /* ControllerProtocol.h */; };
+		E504034C229F5BDF00E78D38 /* ViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040348229F5BDF00E78D38 /* ViewProtocol.h */; };
+		E5040354229F616E00E78D38 /* UIViewController+Param.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040352229F616E00E78D38 /* UIViewController+Param.h */; };
+		E5040355229F616E00E78D38 /* UIViewController+Param.m in Sources */ = {isa = PBXBuildFile; fileRef = E5040353229F616E00E78D38 /* UIViewController+Param.m */; };
+		E504035E229F873400E78D38 /* CLBaseDTO.h in Headers */ = {isa = PBXBuildFile; fileRef = E504035C229F873400E78D38 /* CLBaseDTO.h */; };
+		E504035F229F873400E78D38 /* CLBaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = E504035D229F873400E78D38 /* CLBaseDTO.m */; };
+		E5040364229F878100E78D38 /* CLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5040360229F878100E78D38 /* CLNavigationController.m */; };
+		E5040365229F878100E78D38 /* CLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040361229F878100E78D38 /* CLViewController.h */; };
+		E5040366229F878100E78D38 /* CLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040362229F878100E78D38 /* CLNavigationController.h */; };
+		E5040367229F878100E78D38 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5040363229F878100E78D38 /* CLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,6 @@
 		4207499FBD20996857832130D588227F /* Pods-BaseWork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseWork_Example-umbrella.h"; sourceTree = "<group>"; };
 		44D75DFDD5C56E70441AF9FC943D3982 /* CLViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLViewModel.h; path = BaseWork/Classes/CLViewModel.h; sourceTree = "<group>"; };
 		47C43BAE221C189C2151EED93EDFFA3E /* Pods-BaseWork_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseWork_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4D248063A3F2BDE3533E0BBBD68280A4 /* ViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewProtocol.h; path = BaseWork/Classes/ViewProtocol.h; sourceTree = "<group>"; };
 		4E9737419E582A6942DBB178DBFDC6B1 /* Pods-BaseWork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseWork_Example.modulemap"; sourceTree = "<group>"; };
 		4F5372FCE2403728DBACA1FCD866C3A0 /* Pods-BaseWork_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaseWork_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		544FF369F3E9D87D7EE717DCDBA1E00D /* Pods-BaseWork_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaseWork_Example-resources.sh"; sourceTree = "<group>"; };
@@ -68,7 +75,6 @@
 		8DAEB3D0714663986076B59FEEFA4E30 /* Pods_BaseWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9350550519676AE0AF81D63BA14AA1DC /* Pods-BaseWork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseWork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E31D7D67410776536F88D210A2D8100 /* ViewControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewControllerProtocol.h; path = BaseWork/Classes/ViewControllerProtocol.h; sourceTree = "<group>"; };
 		AC6D30426593F3B555F39929484D59B6 /* BaseWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseWork-dummy.m"; sourceTree = "<group>"; };
 		B1C5E357B2034573F878E559A0AD9F2E /* Pods-BaseWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseWork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6E1386ABCF711533F598A1C45654C0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +82,16 @@
 		CB9AB21A992E52DB6B97FD16523F739E /* Pods-BaseWork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaseWork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CEEF68B94BCA92CE74D40C9B5CC931DA /* BaseWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BaseWork.podspec; sourceTree = "<group>"; };
 		DEA2C06571D0EF137C160B06B94B2E6A /* BaseWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseWork.modulemap; sourceTree = "<group>"; };
+		E5040347229F5BDF00E78D38 /* ControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControllerProtocol.h; path = BaseWork/Classes/ControllerProtocol.h; sourceTree = "<group>"; };
+		E5040348229F5BDF00E78D38 /* ViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewProtocol.h; path = BaseWork/Classes/ViewProtocol.h; sourceTree = "<group>"; };
+		E5040352229F616E00E78D38 /* UIViewController+Param.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Param.h"; path = "BaseWork/Classes/UIViewController+Param.h"; sourceTree = "<group>"; };
+		E5040353229F616E00E78D38 /* UIViewController+Param.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Param.m"; path = "BaseWork/Classes/UIViewController+Param.m"; sourceTree = "<group>"; };
+		E504035C229F873400E78D38 /* CLBaseDTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLBaseDTO.h; path = BaseWork/Classes/CLBaseDTO.h; sourceTree = "<group>"; };
+		E504035D229F873400E78D38 /* CLBaseDTO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CLBaseDTO.m; path = BaseWork/Classes/CLBaseDTO.m; sourceTree = "<group>"; };
+		E5040360229F878100E78D38 /* CLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLNavigationController.m; path = BaseWork/Classes/CLNavigationController.m; sourceTree = "<group>"; };
+		E5040361229F878100E78D38 /* CLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLViewController.h; path = BaseWork/Classes/CLViewController.h; sourceTree = "<group>"; };
+		E5040362229F878100E78D38 /* CLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLNavigationController.h; path = BaseWork/Classes/CLNavigationController.h; sourceTree = "<group>"; };
+		E5040363229F878100E78D38 /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLViewController.m; path = BaseWork/Classes/CLViewController.m; sourceTree = "<group>"; };
 		F05D0ED8DBE76EF1C2E23787EF6879CE /* BaseWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseWork.xcconfig; sourceTree = "<group>"; };
 		FF3D07C55A59420991F14159785D5CEB /* Pods_BaseWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -225,15 +241,55 @@
 		CFD3C6D8AB20CC9598916CEC7563E012 /* BaseWork */ = {
 			isa = PBXGroup;
 			children = (
+				E504035B229F870D00E78D38 /* CLBaseDTO */,
+				E504035A229F86E600E78D38 /* CLBaseController */,
+				E504034F229F60F400E78D38 /* CLCatergory */,
+				E5040347229F5BDF00E78D38 /* ControllerProtocol.h */,
+				E5040348229F5BDF00E78D38 /* ViewProtocol.h */,
 				44D75DFDD5C56E70441AF9FC943D3982 /* CLViewModel.h */,
 				282845EB6D7B954DB038F7868B3C5464 /* CLViewModel.m */,
-				9E31D7D67410776536F88D210A2D8100 /* ViewControllerProtocol.h */,
-				4D248063A3F2BDE3533E0BBBD68280A4 /* ViewProtocol.h */,
 				565752E2F4E281A4E0AC4E48CE587665 /* Pod */,
 				CC358FF5FD1AB0A132EACE071C5C2764 /* Support Files */,
 			);
 			name = BaseWork;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		E504034F229F60F400E78D38 /* CLCatergory */ = {
+			isa = PBXGroup;
+			children = (
+				E5040351229F614200E78D38 /* UIViewController_Ex */,
+			);
+			name = CLCatergory;
+			sourceTree = "<group>";
+		};
+		E5040351229F614200E78D38 /* UIViewController_Ex */ = {
+			isa = PBXGroup;
+			children = (
+				E5040352229F616E00E78D38 /* UIViewController+Param.h */,
+				E5040353229F616E00E78D38 /* UIViewController+Param.m */,
+			);
+			name = UIViewController_Ex;
+			sourceTree = "<group>";
+		};
+		E504035A229F86E600E78D38 /* CLBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				E5040361229F878100E78D38 /* CLViewController.h */,
+				E5040363229F878100E78D38 /* CLViewController.m */,
+				E5040362229F878100E78D38 /* CLNavigationController.h */,
+				E5040360229F878100E78D38 /* CLNavigationController.m */,
+			);
+			name = CLBaseController;
+			sourceTree = "<group>";
+		};
+		E504035B229F870D00E78D38 /* CLBaseDTO */ = {
+			isa = PBXGroup;
+			children = (
+				E504035C229F873400E78D38 /* CLBaseDTO.h */,
+				E504035D229F873400E78D38 /* CLBaseDTO.m */,
+			);
+			name = CLBaseDTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +299,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5040365229F878100E78D38 /* CLViewController.h in Headers */,
+				E5040366229F878100E78D38 /* CLNavigationController.h in Headers */,
+				E5040354229F616E00E78D38 /* UIViewController+Param.h in Headers */,
+				E504035E229F873400E78D38 /* CLBaseDTO.h in Headers */,
+				E504034B229F5BDF00E78D38 /* ControllerProtocol.h in Headers */,
+				E504034C229F5BDF00E78D38 /* ViewProtocol.h in Headers */,
 				526EF39BD68F9907BC4E1E611EA218E7 /* BaseWork-umbrella.h in Headers */,
 				2141FEF3A17EAA04097035ED5ACFC4F4 /* CLViewModel.h in Headers */,
-				7CE131EF896C18B69B3449583FD76F93 /* ViewControllerProtocol.h in Headers */,
-				F941C05E820BC5A3C3922DD559EB07CA /* ViewProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +416,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5040364229F878100E78D38 /* CLNavigationController.m in Sources */,
+				E504035F229F873400E78D38 /* CLBaseDTO.m in Sources */,
+				E5040355229F616E00E78D38 /* UIViewController+Param.m in Sources */,
 				1C788C129FC38496594F91F45B622894 /* BaseWork-dummy.m in Sources */,
 				882CF0538F5D193AC5F924095D69F72D /* CLViewModel.m in Sources */,
+				E5040367229F878100E78D38 /* CLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
