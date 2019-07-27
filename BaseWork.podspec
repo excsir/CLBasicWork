@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseWork'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '基础类'
 
 # This description is used to generate tags and improve search results.
@@ -34,8 +34,8 @@ TODO: Add long description of the pod here.
 
 
   s.subspec 'MyViewCell' do |ss|
-    ss.source_files = 'Classes/MyViewCell/*'
-    ss.public_header_files = 'Classes/MyViewCell/*.h'
+    ss.source_files = 'BaseWork/Classes/MyViewCell/*'
+    ss.public_header_files = 'BaseWork/Classes/MyViewCell/*.h'
   end
   
   s.resource_bundles = {
