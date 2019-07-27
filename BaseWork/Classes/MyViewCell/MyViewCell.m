@@ -7,7 +7,6 @@
 //
 
 #import "MyViewCell.h"
-#import <Masonry.h>
 
 @implementation MyViewCell
 
@@ -26,21 +25,6 @@
     [self.contentView addSubview:self.iconView];
     [self.contentView addSubview:self.iconLabel];
     [self.contentView addSubview:self.titleLabel];
-    
-    [self.iconView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(@10);
-        make.centerY.equalTo(self.contentView);
-        make.width.height.equalTo(@40);
-    }];
-    [self.iconLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(@10);
-        make.centerY.equalTo(self.contentView);
-        make.width.height.equalTo(@40);
-    }];
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.iconView.mas_right).offset(10);
-        make.centerY.equalTo(self.contentView);
-    }];
 }
 
 #pragma mark - getter and setter
