@@ -28,6 +28,7 @@
 		E5040365229F878100E78D38 /* CLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040361229F878100E78D38 /* CLViewController.h */; };
 		E5040366229F878100E78D38 /* CLNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5040362229F878100E78D38 /* CLNavigationController.h */; };
 		E5040367229F878100E78D38 /* CLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5040363229F878100E78D38 /* CLViewController.m */; };
+		E549878D22EBE067001213E4 /* ExcSysNotificationName.h in Headers */ = {isa = PBXBuildFile; fileRef = E549878C22EBE067001213E4 /* ExcSysNotificationName.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		E5040361229F878100E78D38 /* CLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLViewController.h; path = BaseWork/Classes/CLViewController.h; sourceTree = "<group>"; };
 		E5040362229F878100E78D38 /* CLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLNavigationController.h; path = BaseWork/Classes/CLNavigationController.h; sourceTree = "<group>"; };
 		E5040363229F878100E78D38 /* CLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLViewController.m; path = BaseWork/Classes/CLViewController.m; sourceTree = "<group>"; };
+		E549878C22EBE067001213E4 /* ExcSysNotificationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcSysNotificationName.h; sourceTree = "<group>"; };
 		F05D0ED8DBE76EF1C2E23787EF6879CE /* BaseWork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseWork.xcconfig; sourceTree = "<group>"; };
 		FF3D07C55A59420991F14159785D5CEB /* Pods_BaseWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -241,6 +243,7 @@
 		CFD3C6D8AB20CC9598916CEC7563E012 /* BaseWork */ = {
 			isa = PBXGroup;
 			children = (
+				E549878B22EBE067001213E4 /* DataView */,
 				E504035B229F870D00E78D38 /* CLBaseDTO */,
 				E504035A229F86E600E78D38 /* CLBaseController */,
 				E504034F229F60F400E78D38 /* CLCatergory */,
@@ -292,6 +295,15 @@
 			name = CLBaseDTO;
 			sourceTree = "<group>";
 		};
+		E549878B22EBE067001213E4 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				E549878C22EBE067001213E4 /* ExcSysNotificationName.h */,
+			);
+			name = DataView;
+			path = BaseWork/Classes/DataView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -303,6 +315,7 @@
 				E5040366229F878100E78D38 /* CLNavigationController.h in Headers */,
 				E5040354229F616E00E78D38 /* UIViewController+Param.h in Headers */,
 				E504035E229F873400E78D38 /* CLBaseDTO.h in Headers */,
+				E549878D22EBE067001213E4 /* ExcSysNotificationName.h in Headers */,
 				E504034B229F5BDF00E78D38 /* ControllerProtocol.h in Headers */,
 				E504034C229F5BDF00E78D38 /* ViewProtocol.h in Headers */,
 				526EF39BD68F9907BC4E1E611EA218E7 /* BaseWork-umbrella.h in Headers */,
