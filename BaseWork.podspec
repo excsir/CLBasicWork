@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseWork'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '基础类'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'BaseWork/Classes/**/*'
+
+
+  s.subspec 'MyViewCell' do |ss|
+    ss.source_files = 'Classes/MyViewCell/*'
+    ss.public_header_files = 'Classes/MyViewCell/*.h'
+  end
   
   s.resource_bundles = {
     'BaseWork' => ['BaseWork/Assets/*.png']
